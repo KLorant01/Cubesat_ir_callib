@@ -1,0 +1,1200 @@
+SENSOR: 20 	 ADDRESS 	 VAL. NAME 	 SOURCE 	 VALUE
+========================================================================================================================================================
+	 	 0x2426 	 Vdd25              	 eeprom 	 18044
+	 	 0x2427 	 KVdd               	 eeprom 	 51099
+	 	 0x2428 	 PTAT25_1           	 eeprom 	 20836
+	 	 0x2429 	 PTAT25_2           	 eeprom 	 6150
+	 	 0x242a 	 KTPTAT             	 eeprom 	 6441
+	 	 0x242b 	 KVPTAT             	 eeprom 	 14344
+	 	 0x242c 	 AlphaPTAT          	 eeprom 	 52544
+	 	 0x2433 	 TGC_ee             	 eeprom 	 11296
+	 	 0x2424 	 GAIN_EE_1          	 eeprom 	 61665
+	 	 0x2425 	 GAIN_EE_2          	 eeprom 	 40969
+	 	 0x2411 	 Pix_os_R1_1        	 eeprom 	 30707
+	 	 0x2412 	 Pix_os_R1_2        	 eeprom 	 20497
+	 	 0x2410 	 Scale_occ          	 eeprom 	 0
+	 	 0x2415 	 KTa_avg            	 eeprom 	 31335
+	 	 0x2416 	 KTa_scale          	 eeprom 	 2594
+	 	 0x2417 	 KV_avg             	 eeprom 	 15028
+	 	 0x2418 	 KV_scale           	 eeprom 	 20836
+	 	 0x2423 	 Emissivity         	 eeprom 	 29184
+	 	 0x242f 	 Offset_CP_W1       	 eeprom 	 45038
+	 	 0x2430 	 Offset_CP_W2       	 eeprom 	 51216
+	 	 0x2432 	 KV_CP_scale_ee     	 eeprom 	 31128
+	 	 0x2431 	 KTa_CP_scale       	 eeprom 	 54032
+	 	 0x241c 	 row1_max           	 eeprom 	 57259
+	 	 0x241d 	 row2_max           	 eeprom 	 38005
+	 	 0x241e 	 row3_max           	 eeprom 	 7350
+	 	 0x241f 	 row4_max           	 eeprom 	 29891
+	 	 0x2420 	 row5_max           	 eeprom 	 38005
+	 	 0x2421 	 row6_max           	 eeprom 	 61342
+	 	 0x2419 	 scale_row12        	 eeprom 	 53676
+	 	 0x241a 	 scale_row34        	 eeprom 	 396
+	 	 0x241b 	 scale_row56        	 eeprom 	 39309
+	 	 0x2434 	 KsTo_scale_ee      	 eeprom 	 63507
+	 	 0x2435 	 KsTo_1_ee          	 eeprom 	 0
+	 	 0x2436 	 KsTo_2_ee          	 eeprom 	 0
+	 	 0x2437 	 KsTo_3_ee          	 eeprom 	 24419
+	 	 0x2438 	 KsTo_4_ee          	 eeprom 	 48890
+	 	 0x2439 	 KsTo_5_ee          	 eeprom 	 26152
+	 	 0x243b 	 KsTo_6_ee          	 eeprom 	 46318
+	 	 0x243d 	 KsTo_7_ee          	 eeprom 	 13445
+	 	 0x243f 	 KsTo_8_ee          	 eeprom 	 48156
+	 	 0x243a 	 CT6_ee             	 eeprom 	 12538
+	 	 0x243c 	 CT7_ee             	 eeprom 	 16784
+	 	 0x243e 	 CT8_ee             	 eeprom 	 55896
+	 	 0x242d 	 alpha_cyclops      	 eeprom 	 29238
+	 	 0x242e 	 alpha_cyclop_scale 	 eeprom 	 30754
+	 	 0x2422 	 KsTa_ee            	 eeprom 	 2010
+
+  xy> 	 0x2440 	 Pix_os_SP0_ee            	 eeprom 	 28661
+  xy> 	 0x2680 	 Pix_os_SP1_ee            	 eeprom 	 24566
+  xy> 	 0x25c0 	 KTa_ee                   	 eeprom 	 63329
+  xy> 	 0x25c0 	 KV_ee                    	 eeprom 	 63329
+  xy> 	 0x2500 	 alpha_pixel_sensitivity  	 eeprom 	 23507
+
+  xy> 	 0x2441 	 Pix_os_SP0_ee            	 eeprom 	 55290
+  xy> 	 0x2681 	 Pix_os_SP1_ee            	 eeprom 	 59385
+  xy> 	 0x25c1 	 KTa_ee                   	 eeprom 	 32481
+  xy> 	 0x25c1 	 KV_ee                    	 eeprom 	 32481
+  xy> 	 0x2501 	 alpha_pixel_sensitivity  	 eeprom 	 9406
+
+  xy> 	 0x2442 	 Pix_os_SP0_ee            	 eeprom 	 38913
+  xy> 	 0x2682 	 Pix_os_SP1_ee            	 eeprom 	 0
+  xy> 	 0x25c2 	 KTa_ee                   	 eeprom 	 59104
+  xy> 	 0x25c2 	 KV_ee                    	 eeprom 	 59104
+  xy> 	 0x2502 	 alpha_pixel_sensitivity  	 eeprom 	 19783
+
+  xy> 	 0x2443 	 Pix_os_SP0_ee            	 eeprom 	 47119
+  xy> 	 0x2683 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x25c3 	 KTa_ee                   	 eeprom 	 48960
+  xy> 	 0x25c3 	 KV_ee                    	 eeprom 	 48960
+  xy> 	 0x2503 	 alpha_pixel_sensitivity  	 eeprom 	 7619
+
+  xy> 	 0x2444 	 Pix_os_SP0_ee            	 eeprom 	 2059
+  xy> 	 0x2684 	 Pix_os_SP1_ee            	 eeprom 	 2059
+  xy> 	 0x25c4 	 KTa_ee                   	 eeprom 	 59136
+  xy> 	 0x25c4 	 KV_ee                    	 eeprom 	 59136
+  xy> 	 0x2504 	 alpha_pixel_sensitivity  	 eeprom 	 24140
+
+  xy> 	 0x2445 	 Pix_os_SP0_ee            	 eeprom 	 43010
+  xy> 	 0x2685 	 Pix_os_SP1_ee            	 eeprom 	 38913
+  xy> 	 0x25c5 	 KTa_ee                   	 eeprom 	 59104
+  xy> 	 0x25c5 	 KV_ee                    	 eeprom 	 59104
+  xy> 	 0x2505 	 alpha_pixel_sensitivity  	 eeprom 	 22206
+
+  xy> 	 0x2446 	 Pix_os_SP0_ee            	 eeprom 	 40969
+  xy> 	 0x2686 	 Pix_os_SP1_ee            	 eeprom 	 14344
+  xy> 	 0x25c6 	 KTa_ee                   	 eeprom 	 18143
+  xy> 	 0x25c6 	 KV_ee                    	 eeprom 	 18143
+  xy> 	 0x2506 	 alpha_pixel_sensitivity  	 eeprom 	 28396
+
+  xy> 	 0x2447 	 Pix_os_SP0_ee            	 eeprom 	 8206
+  xy> 	 0x2687 	 Pix_os_SP1_ee            	 eeprom 	 8206
+  xy> 	 0x25c7 	 KTa_ee                   	 eeprom 	 18239
+  xy> 	 0x25c7 	 KV_ee                    	 eeprom 	 18239
+  xy> 	 0x2507 	 alpha_pixel_sensitivity  	 eeprom 	 38687
+
+  xy> 	 0x2448 	 Pix_os_SP0_ee            	 eeprom 	 38913
+  xy> 	 0x2688 	 Pix_os_SP1_ee            	 eeprom 	 38913
+  xy> 	 0x25c8 	 KTa_ee                   	 eeprom 	 57054
+  xy> 	 0x25c8 	 KV_ee                    	 eeprom 	 57054
+  xy> 	 0x2508 	 alpha_pixel_sensitivity  	 eeprom 	 40738
+
+  xy> 	 0x2449 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x2689 	 Pix_os_SP1_ee            	 eeprom 	 40969
+  xy> 	 0x25c9 	 KTa_ee                   	 eeprom 	 38687
+  xy> 	 0x25c9 	 KV_ee                    	 eeprom 	 38687
+  xy> 	 0x2509 	 alpha_pixel_sensitivity  	 eeprom 	 57064
+
+  xy> 	 0x244a 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x268a 	 Pix_os_SP1_ee            	 eeprom 	 40969
+  xy> 	 0x25ca 	 KTa_ee                   	 eeprom 	 3838
+  xy> 	 0x25ca 	 KV_ee                    	 eeprom 	 3838
+  xy> 	 0x250a 	 alpha_pixel_sensitivity  	 eeprom 	 20110
+
+  xy> 	 0x244b 	 Pix_os_SP0_ee            	 eeprom 	 57365
+  xy> 	 0x268b 	 Pix_os_SP1_ee            	 eeprom 	 57365
+  xy> 	 0x25cb 	 KTa_ee                   	 eeprom 	 57150
+  xy> 	 0x25cb 	 KV_ee                    	 eeprom 	 57150
+  xy> 	 0x250b 	 alpha_pixel_sensitivity  	 eeprom 	 34315
+
+  xy> 	 0x244c 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x268c 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x25cc 	 KTa_ee                   	 eeprom 	 57150
+  xy> 	 0x25cc 	 KV_ee                    	 eeprom 	 57150
+  xy> 	 0x250c 	 alpha_pixel_sensitivity  	 eeprom 	 11674
+
+  xy> 	 0x244d 	 Pix_os_SP0_ee            	 eeprom 	 20475
+  xy> 	 0x268d 	 Pix_os_SP1_ee            	 eeprom 	 55290
+  xy> 	 0x25cd 	 KTa_ee                   	 eeprom 	 52927
+  xy> 	 0x25cd 	 KV_ee                    	 eeprom 	 52927
+  xy> 	 0x250d 	 alpha_pixel_sensitivity  	 eeprom 	 29987
+
+  xy> 	 0x244e 	 Pix_os_SP0_ee            	 eeprom 	 26622
+  xy> 	 0x268e 	 Pix_os_SP1_ee            	 eeprom 	 22525
+  xy> 	 0x25ce 	 KTa_ee                   	 eeprom 	 22366
+  xy> 	 0x25ce 	 KV_ee                    	 eeprom 	 22366
+  xy> 	 0x250e 	 alpha_pixel_sensitivity  	 eeprom 	 27708
+
+  xy> 	 0x244f 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x268f 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x25cf 	 KTa_ee                   	 eeprom 	 1920
+  xy> 	 0x25cf 	 KV_ee                    	 eeprom 	 1920
+  xy> 	 0x250f 	 alpha_pixel_sensitivity  	 eeprom 	 64058
+
+  xy> 	 0x2450 	 Pix_os_SP0_ee            	 eeprom 	 20519
+  xy> 	 0x2690 	 Pix_os_SP1_ee            	 eeprom 	 20519
+  xy> 	 0x25d0 	 KTa_ee                   	 eeprom 	 22439
+  xy> 	 0x25d0 	 KV_ee                    	 eeprom 	 22439
+  xy> 	 0x2510 	 alpha_pixel_sensitivity  	 eeprom 	 44164
+
+  xy> 	 0x2451 	 Pix_os_SP0_ee            	 eeprom 	 28703
+  xy> 	 0x2691 	 Pix_os_SP1_ee            	 eeprom 	 59422
+  xy> 	 0x25d1 	 KTa_ee                   	 eeprom 	 57188
+  xy> 	 0x25d1 	 KV_ee                    	 eeprom 	 57188
+  xy> 	 0x2511 	 alpha_pixel_sensitivity  	 eeprom 	 25880
+
+  xy> 	 0x2452 	 Pix_os_SP0_ee            	 eeprom 	 63525
+  xy> 	 0x2692 	 Pix_os_SP1_ee            	 eeprom 	 24612
+  xy> 	 0x25d2 	 KTa_ee                   	 eeprom 	 36675
+  xy> 	 0x25d2 	 KV_ee                    	 eeprom 	 36675
+  xy> 	 0x2512 	 alpha_pixel_sensitivity  	 eeprom 	 19902
+
+  xy> 	 0x2453 	 Pix_os_SP0_ee            	 eeprom 	 49179
+  xy> 	 0x2693 	 Pix_os_SP1_ee            	 eeprom 	 16412
+  xy> 	 0x25d3 	 KTa_ee                   	 eeprom 	 44833
+  xy> 	 0x25d3 	 KV_ee                    	 eeprom 	 44833
+  xy> 	 0x2513 	 alpha_pixel_sensitivity  	 eeprom 	 48729
+
+  xy> 	 0x2454 	 Pix_os_SP0_ee            	 eeprom 	 30754
+  xy> 	 0x2694 	 Pix_os_SP1_ee            	 eeprom 	 30754
+  xy> 	 0x25d4 	 KTa_ee                   	 eeprom 	 44930
+  xy> 	 0x25d4 	 KV_ee                    	 eeprom 	 44930
+  xy> 	 0x2514 	 alpha_pixel_sensitivity  	 eeprom 	 55011
+
+  xy> 	 0x2455 	 Pix_os_SP0_ee            	 eeprom 	 18465
+  xy> 	 0x2695 	 Pix_os_SP1_ee            	 eeprom 	 28703
+  xy> 	 0x25d5 	 KTa_ee                   	 eeprom 	 55043
+  xy> 	 0x25d5 	 KV_ee                    	 eeprom 	 55043
+  xy> 	 0x2515 	 alpha_pixel_sensitivity  	 eeprom 	 49014
+
+  xy> 	 0x2456 	 Pix_os_SP0_ee            	 eeprom 	 16426
+  xy> 	 0x2696 	 Pix_os_SP1_ee            	 eeprom 	 16426
+  xy> 	 0x25d6 	 KTa_ee                   	 eeprom 	 5954
+  xy> 	 0x25d6 	 KV_ee                    	 eeprom 	 5954
+  xy> 	 0x2516 	 alpha_pixel_sensitivity  	 eeprom 	 26532
+
+  xy> 	 0x2457 	 Pix_os_SP0_ee            	 eeprom 	 61464
+  xy> 	 0x2697 	 Pix_os_SP1_ee            	 eeprom 	 61464
+  xy> 	 0x25d7 	 KTa_ee                   	 eeprom 	 59136
+  xy> 	 0x25d7 	 KV_ee                    	 eeprom 	 59136
+  xy> 	 0x2517 	 alpha_pixel_sensitivity  	 eeprom 	 26622
+
+  xy> 	 0x2458 	 Pix_os_SP0_ee            	 eeprom 	 28703
+  xy> 	 0x2698 	 Pix_os_SP1_ee            	 eeprom 	 28703
+  xy> 	 0x25d8 	 KTa_ee                   	 eeprom 	 32513
+  xy> 	 0x25d8 	 KV_ee                    	 eeprom 	 32513
+  xy> 	 0x2518 	 alpha_pixel_sensitivity  	 eeprom 	 57329
+
+  xy> 	 0x2459 	 Pix_os_SP0_ee            	 eeprom 	 57379
+  xy> 	 0x2699 	 Pix_os_SP1_ee            	 eeprom 	 30754
+  xy> 	 0x25d9 	 KTa_ee                   	 eeprom 	 44833
+  xy> 	 0x25d9 	 KV_ee                    	 eeprom 	 44833
+  xy> 	 0x2519 	 alpha_pixel_sensitivity  	 eeprom 	 10168
+
+  xy> 	 0x245a 	 Pix_os_SP0_ee            	 eeprom 	 55339
+  xy> 	 0x269a 	 Pix_os_SP1_ee            	 eeprom 	 16426
+  xy> 	 0x25da 	 KTa_ee                   	 eeprom 	 44833
+  xy> 	 0x25da 	 KV_ee                    	 eeprom 	 44833
+  xy> 	 0x251a 	 alpha_pixel_sensitivity  	 eeprom 	 3908
+
+  xy> 	 0x245b 	 Pix_os_SP0_ee            	 eeprom 	 57379
+  xy> 	 0x269b 	 Pix_os_SP1_ee            	 eeprom 	 57379
+  xy> 	 0x25db 	 KTa_ee                   	 eeprom 	 18239
+  xy> 	 0x25db 	 KV_ee                    	 eeprom 	 18239
+  xy> 	 0x251b 	 alpha_pixel_sensitivity  	 eeprom 	 40642
+
+  xy> 	 0x245c 	 Pix_os_SP0_ee            	 eeprom 	 24612
+  xy> 	 0x269c 	 Pix_os_SP1_ee            	 eeprom 	 24612
+  xy> 	 0x25dc 	 KTa_ee                   	 eeprom 	 14112
+  xy> 	 0x25dc 	 KV_ee                    	 eeprom 	 14112
+  xy> 	 0x251c 	 alpha_pixel_sensitivity  	 eeprom 	 54848
+
+  xy> 	 0x245d 	 Pix_os_SP0_ee            	 eeprom 	 59422
+  xy> 	 0x269d 	 Pix_os_SP1_ee            	 eeprom 	 16412
+  xy> 	 0x25dd 	 KTa_ee                   	 eeprom 	 44833
+  xy> 	 0x25dd 	 KV_ee                    	 eeprom 	 44833
+  xy> 	 0x251d 	 alpha_pixel_sensitivity  	 eeprom 	 30134
+
+  xy> 	 0x245e 	 Pix_os_SP0_ee            	 eeprom 	 55325
+  xy> 	 0x269e 	 Pix_os_SP1_ee            	 eeprom 	 55325
+  xy> 	 0x25de 	 KTa_ee                   	 eeprom 	 40738
+  xy> 	 0x25de 	 KV_ee                    	 eeprom 	 40738
+  xy> 	 0x251e 	 alpha_pixel_sensitivity  	 eeprom 	 38144
+
+  xy> 	 0x245f 	 Pix_os_SP0_ee            	 eeprom 	 57365
+  xy> 	 0x269f 	 Pix_os_SP1_ee            	 eeprom 	 57365
+  xy> 	 0x25df 	 KTa_ee                   	 eeprom 	 20385
+  xy> 	 0x25df 	 KV_ee                    	 eeprom 	 20385
+  xy> 	 0x251f 	 alpha_pixel_sensitivity  	 eeprom 	 19378
+
+  xy> 	 0x2460 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x26a0 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x25e0 	 KTa_ee                   	 eeprom 	 6113
+  xy> 	 0x25e0 	 KV_ee                    	 eeprom 	 6113
+  xy> 	 0x2520 	 alpha_pixel_sensitivity  	 eeprom 	 15387
+
+  xy> 	 0x2461 	 Pix_os_SP0_ee            	 eeprom 	 12291
+  xy> 	 0x26a1 	 Pix_os_SP1_ee            	 eeprom 	 43010
+  xy> 	 0x25e1 	 KTa_ee                   	 eeprom 	 32674
+  xy> 	 0x25e1 	 KV_ee                    	 eeprom 	 32674
+  xy> 	 0x2521 	 alpha_pixel_sensitivity  	 eeprom 	 48339
+
+  xy> 	 0x2462 	 Pix_os_SP0_ee            	 eeprom 	 38913
+  xy> 	 0x26a2 	 Pix_os_SP1_ee            	 eeprom 	 0
+  xy> 	 0x25e2 	 KTa_ee                   	 eeprom 	 55200
+  xy> 	 0x25e2 	 KV_ee                    	 eeprom 	 55200
+  xy> 	 0x2522 	 alpha_pixel_sensitivity  	 eeprom 	 23932
+
+  xy> 	 0x2463 	 Pix_os_SP0_ee            	 eeprom 	 30740
+  xy> 	 0x26a3 	 Pix_os_SP1_ee            	 eeprom 	 57365
+  xy> 	 0x25e3 	 KTa_ee                   	 eeprom 	 38913
+  xy> 	 0x25e3 	 KV_ee                    	 eeprom 	 38913
+  xy> 	 0x2523 	 alpha_pixel_sensitivity  	 eeprom 	 5630
+
+  xy> 	 0x2464 	 Pix_os_SP0_ee            	 eeprom 	 32775
+  xy> 	 0x26a4 	 Pix_os_SP1_ee            	 eeprom 	 14344
+  xy> 	 0x25e4 	 KTa_ee                   	 eeprom 	 24512
+  xy> 	 0x25e4 	 KV_ee                    	 eeprom 	 24512
+  xy> 	 0x2524 	 alpha_pixel_sensitivity  	 eeprom 	 16039
+
+  xy> 	 0x2465 	 Pix_os_SP0_ee            	 eeprom 	 14344
+  xy> 	 0x26a5 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x25e5 	 KTa_ee                   	 eeprom 	 28512
+  xy> 	 0x25e5 	 KV_ee                    	 eeprom 	 28512
+  xy> 	 0x2525 	 alpha_pixel_sensitivity  	 eeprom 	 61195
+
+  xy> 	 0x2466 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26a6 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x25e6 	 KTa_ee                   	 eeprom 	 42943
+  xy> 	 0x25e6 	 KV_ee                    	 eeprom 	 42943
+  xy> 	 0x2526 	 alpha_pixel_sensitivity  	 eeprom 	 32567
+
+  xy> 	 0x2467 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26a7 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x25e7 	 KTa_ee                   	 eeprom 	 12255
+  xy> 	 0x25e7 	 KV_ee                    	 eeprom 	 12255
+  xy> 	 0x2527 	 alpha_pixel_sensitivity  	 eeprom 	 3954
+
+  xy> 	 0x2468 	 Pix_os_SP0_ee            	 eeprom 	 12291
+  xy> 	 0x26a8 	 Pix_os_SP1_ee            	 eeprom 	 12291
+  xy> 	 0x25e8 	 KTa_ee                   	 eeprom 	 16318
+  xy> 	 0x25e8 	 KV_ee                    	 eeprom 	 16318
+  xy> 	 0x2528 	 alpha_pixel_sensitivity  	 eeprom 	 44930
+
+  xy> 	 0x2469 	 Pix_os_SP0_ee            	 eeprom 	 4109
+  xy> 	 0x26a9 	 Pix_os_SP1_ee            	 eeprom 	 34828
+  xy> 	 0x25e9 	 KTa_ee                   	 eeprom 	 30623
+  xy> 	 0x25e9 	 KV_ee                    	 eeprom 	 30623
+  xy> 	 0x2529 	 alpha_pixel_sensitivity  	 eeprom 	 5954
+
+  xy> 	 0x246a 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26aa 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x25ea 	 KTa_ee                   	 eeprom 	 34686
+  xy> 	 0x25ea 	 KV_ee                    	 eeprom 	 34686
+  xy> 	 0x252a 	 alpha_pixel_sensitivity  	 eeprom 	 32481
+
+  xy> 	 0x246b 	 Pix_os_SP0_ee            	 eeprom 	 18455
+  xy> 	 0x26ab 	 Pix_os_SP1_ee            	 eeprom 	 61464
+  xy> 	 0x25eb 	 KTa_ee                   	 eeprom 	 16318
+  xy> 	 0x25eb 	 KV_ee                    	 eeprom 	 16318
+  xy> 	 0x252b 	 alpha_pixel_sensitivity  	 eeprom 	 65139
+
+  xy> 	 0x246c 	 Pix_os_SP0_ee            	 eeprom 	 47119
+  xy> 	 0x26ac 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x25ec 	 KTa_ee                   	 eeprom 	 16318
+  xy> 	 0x25ec 	 KV_ee                    	 eeprom 	 16318
+  xy> 	 0x252c 	 alpha_pixel_sensitivity  	 eeprom 	 24031
+
+  xy> 	 0x246d 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x26ad 	 Pix_os_SP1_ee            	 eeprom 	 14344
+  xy> 	 0x25ed 	 KTa_ee                   	 eeprom 	 61342
+  xy> 	 0x25ed 	 KV_ee                    	 eeprom 	 61342
+  xy> 	 0x252d 	 alpha_pixel_sensitivity  	 eeprom 	 38234
+
+  xy> 	 0x246e 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x26ae 	 Pix_os_SP1_ee            	 eeprom 	 40969
+  xy> 	 0x25ee 	 KTa_ee                   	 eeprom 	 22366
+  xy> 	 0x25ee 	 KV_ee                    	 eeprom 	 22366
+  xy> 	 0x252e 	 alpha_pixel_sensitivity  	 eeprom 	 23722
+
+  xy> 	 0x246f 	 Pix_os_SP0_ee            	 eeprom 	 40969
+  xy> 	 0x26af 	 Pix_os_SP1_ee            	 eeprom 	 36874
+  xy> 	 0x25ef 	 KTa_ee                   	 eeprom 	 36832
+  xy> 	 0x25ef 	 KV_ee                    	 eeprom 	 36832
+  xy> 	 0x252f 	 alpha_pixel_sensitivity  	 eeprom 	 27658
+
+  xy> 	 0x2470 	 Pix_os_SP0_ee            	 eeprom 	 18465
+  xy> 	 0x26b0 	 Pix_os_SP1_ee            	 eeprom 	 30754
+  xy> 	 0x25f0 	 KTa_ee                   	 eeprom 	 22439
+  xy> 	 0x25f0 	 KV_ee                    	 eeprom 	 22439
+  xy> 	 0x2530 	 alpha_pixel_sensitivity  	 eeprom 	 44157
+
+  xy> 	 0x2471 	 Pix_os_SP0_ee            	 eeprom 	 18455
+  xy> 	 0x26b1 	 Pix_os_SP1_ee            	 eeprom 	 57365
+  xy> 	 0x25f1 	 KTa_ee                   	 eeprom 	 57188
+  xy> 	 0x25f1 	 KV_ee                    	 eeprom 	 57188
+  xy> 	 0x2531 	 alpha_pixel_sensitivity  	 eeprom 	 52506
+
+  xy> 	 0x2472 	 Pix_os_SP0_ee            	 eeprom 	 59422
+  xy> 	 0x26b2 	 Pix_os_SP1_ee            	 eeprom 	 59422
+  xy> 	 0x25f2 	 KTa_ee                   	 eeprom 	 14211
+  xy> 	 0x25f2 	 KV_ee                    	 eeprom 	 14211
+  xy> 	 0x2532 	 alpha_pixel_sensitivity  	 eeprom 	 19902
+
+  xy> 	 0x2473 	 Pix_os_SP0_ee            	 eeprom 	 61464
+  xy> 	 0x26b3 	 Pix_os_SP1_ee            	 eeprom 	 26649
+  xy> 	 0x25f3 	 KTa_ee                   	 eeprom 	 20385
+  xy> 	 0x25f3 	 KV_ee                    	 eeprom 	 20385
+  xy> 	 0x2533 	 alpha_pixel_sensitivity  	 eeprom 	 1632
+
+  xy> 	 0x2474 	 Pix_os_SP0_ee            	 eeprom 	 16412
+  xy> 	 0x26b4 	 Pix_os_SP1_ee            	 eeprom 	 55325
+  xy> 	 0x25f4 	 KTa_ee                   	 eeprom 	 32674
+  xy> 	 0x25f4 	 KV_ee                    	 eeprom 	 32674
+  xy> 	 0x2534 	 alpha_pixel_sensitivity  	 eeprom 	 14070
+
+  xy> 	 0x2475 	 Pix_os_SP0_ee            	 eeprom 	 26649
+  xy> 	 0x26b5 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x25f5 	 KTa_ee                   	 eeprom 	 40738
+  xy> 	 0x25f5 	 KV_ee                    	 eeprom 	 40738
+  xy> 	 0x2535 	 alpha_pixel_sensitivity  	 eeprom 	 3979
+
+  xy> 	 0x2476 	 Pix_os_SP0_ee            	 eeprom 	 57379
+  xy> 	 0x26b6 	 Pix_os_SP1_ee            	 eeprom 	 57379
+  xy> 	 0x25f6 	 KTa_ee                   	 eeprom 	 10049
+  xy> 	 0x25f6 	 KV_ee                    	 eeprom 	 10049
+  xy> 	 0x2536 	 alpha_pixel_sensitivity  	 eeprom 	 44980
+
+  xy> 	 0x2477 	 Pix_os_SP0_ee            	 eeprom 	 18455
+  xy> 	 0x26b7 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x25f7 	 KTa_ee                   	 eeprom 	 18239
+  xy> 	 0x25f7 	 KV_ee                    	 eeprom 	 18239
+  xy> 	 0x2537 	 alpha_pixel_sensitivity  	 eeprom 	 34795
+
+  xy> 	 0x2478 	 Pix_os_SP0_ee            	 eeprom 	 22554
+  xy> 	 0x26b8 	 Pix_os_SP1_ee            	 eeprom 	 49179
+  xy> 	 0x25f8 	 KTa_ee                   	 eeprom 	 28512
+  xy> 	 0x25f8 	 KV_ee                    	 eeprom 	 28512
+  xy> 	 0x2538 	 alpha_pixel_sensitivity  	 eeprom 	 26622
+
+  xy> 	 0x2479 	 Pix_os_SP0_ee            	 eeprom 	 18465
+  xy> 	 0x26b9 	 Pix_os_SP1_ee            	 eeprom 	 28703
+  xy> 	 0x25f9 	 KTa_ee                   	 eeprom 	 63329
+  xy> 	 0x25f9 	 KV_ee                    	 eeprom 	 63329
+  xy> 	 0x2539 	 alpha_pixel_sensitivity  	 eeprom 	 16318
+
+  xy> 	 0x247a 	 Pix_os_SP0_ee            	 eeprom 	 63525
+  xy> 	 0x26ba 	 Pix_os_SP1_ee            	 eeprom 	 63525
+  xy> 	 0x25fa 	 KTa_ee                   	 eeprom 	 63329
+  xy> 	 0x25fa 	 KV_ee                    	 eeprom 	 63329
+  xy> 	 0x253a 	 alpha_pixel_sensitivity  	 eeprom 	 22366
+
+  xy> 	 0x247b 	 Pix_os_SP0_ee            	 eeprom 	 24612
+  xy> 	 0x26bb 	 Pix_os_SP1_ee            	 eeprom 	 24612
+  xy> 	 0x25fb 	 KTa_ee                   	 eeprom 	 8063
+  xy> 	 0x25fb 	 KV_ee                    	 eeprom 	 8063
+  xy> 	 0x253b 	 alpha_pixel_sensitivity  	 eeprom 	 3784
+
+  xy> 	 0x247c 	 Pix_os_SP0_ee            	 eeprom 	 30754
+  xy> 	 0x26bc 	 Pix_os_SP1_ee            	 eeprom 	 30754
+  xy> 	 0x25fc 	 KTa_ee                   	 eeprom 	 28512
+  xy> 	 0x25fc 	 KV_ee                    	 eeprom 	 28512
+  xy> 	 0x253c 	 alpha_pixel_sensitivity  	 eeprom 	 36442
+
+  xy> 	 0x247d 	 Pix_os_SP0_ee            	 eeprom 	 49197
+  xy> 	 0x26bd 	 Pix_os_SP1_ee            	 eeprom 	 55339
+  xy> 	 0x25fd 	 KTa_ee                   	 eeprom 	 63329
+  xy> 	 0x25fd 	 KV_ee                    	 eeprom 	 63329
+  xy> 	 0x253d 	 alpha_pixel_sensitivity  	 eeprom 	 21902
+
+  xy> 	 0x247e 	 Pix_os_SP0_ee            	 eeprom 	 59432
+  xy> 	 0x26be 	 Pix_os_SP1_ee            	 eeprom 	 20519
+  xy> 	 0x25fe 	 KTa_ee                   	 eeprom 	 20385
+  xy> 	 0x25fe 	 KV_ee                    	 eeprom 	 20385
+  xy> 	 0x253e 	 alpha_pixel_sensitivity  	 eeprom 	 17654
+
+  xy> 	 0x247f 	 Pix_os_SP0_ee            	 eeprom 	 30754
+  xy> 	 0x26bf 	 Pix_os_SP1_ee            	 eeprom 	 30754
+  xy> 	 0x25ff 	 KTa_ee                   	 eeprom 	 24512
+  xy> 	 0x25ff 	 KV_ee                    	 eeprom 	 24512
+  xy> 	 0x253f 	 alpha_pixel_sensitivity  	 eeprom 	 31793
+
+  xy> 	 0x2480 	 Pix_os_SP0_ee            	 eeprom 	 24566
+  xy> 	 0x26c0 	 Pix_os_SP1_ee            	 eeprom 	 51191
+  xy> 	 0x2600 	 KTa_ee                   	 eeprom 	 49217
+  xy> 	 0x2600 	 KV_ee                    	 eeprom 	 49217
+  xy> 	 0x2540 	 alpha_pixel_sensitivity  	 eeprom 	 21592
+
+  xy> 	 0x2481 	 Pix_os_SP0_ee            	 eeprom 	 20475
+  xy> 	 0x26c1 	 Pix_os_SP1_ee            	 eeprom 	 55290
+  xy> 	 0x2601 	 KTa_ee                   	 eeprom 	 8290
+  xy> 	 0x2601 	 KV_ee                    	 eeprom 	 8290
+  xy> 	 0x2541 	 alpha_pixel_sensitivity  	 eeprom 	 27923
+
+  xy> 	 0x2482 	 Pix_os_SP0_ee            	 eeprom 	 43010
+  xy> 	 0x26c2 	 Pix_os_SP1_ee            	 eeprom 	 38913
+  xy> 	 0x2602 	 KTa_ee                   	 eeprom 	 18465
+  xy> 	 0x2602 	 KV_ee                    	 eeprom 	 18465
+  xy> 	 0x2542 	 alpha_pixel_sensitivity  	 eeprom 	 46509
+
+  xy> 	 0x2483 	 Pix_os_SP0_ee            	 eeprom 	 10245
+  xy> 	 0x26c3 	 Pix_os_SP1_ee            	 eeprom 	 10245
+  xy> 	 0x2603 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x2603 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x2543 	 alpha_pixel_sensitivity  	 eeprom 	 46692
+
+  xy> 	 0x2484 	 Pix_os_SP0_ee            	 eeprom 	 0
+  xy> 	 0x26c4 	 Pix_os_SP1_ee            	 eeprom 	 38913
+  xy> 	 0x2604 	 KTa_ee                   	 eeprom 	 36832
+  xy> 	 0x2604 	 KV_ee                    	 eeprom 	 36832
+  xy> 	 0x2544 	 alpha_pixel_sensitivity  	 eeprom 	 20226
+
+  xy> 	 0x2485 	 Pix_os_SP0_ee            	 eeprom 	 65535
+  xy> 	 0x26c5 	 Pix_os_SP1_ee            	 eeprom 	 22525
+  xy> 	 0x2605 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x2605 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x2545 	 alpha_pixel_sensitivity  	 eeprom 	 10103
+
+  xy> 	 0x2486 	 Pix_os_SP0_ee            	 eeprom 	 12291
+  xy> 	 0x26c6 	 Pix_os_SP1_ee            	 eeprom 	 43010
+  xy> 	 0x2606 	 KTa_ee                   	 eeprom 	 28703
+  xy> 	 0x2606 	 KV_ee                    	 eeprom 	 28703
+  xy> 	 0x2546 	 alpha_pixel_sensitivity  	 eeprom 	 40887
+
+  xy> 	 0x2487 	 Pix_os_SP0_ee            	 eeprom 	 34828
+  xy> 	 0x26c7 	 Pix_os_SP1_ee            	 eeprom 	 4109
+  xy> 	 0x2607 	 KTa_ee                   	 eeprom 	 41023
+  xy> 	 0x2607 	 KV_ee                    	 eeprom 	 41023
+  xy> 	 0x2547 	 alpha_pixel_sensitivity  	 eeprom 	 26568
+
+  xy> 	 0x2488 	 Pix_os_SP0_ee            	 eeprom 	 38913
+  xy> 	 0x26c8 	 Pix_os_SP1_ee            	 eeprom 	 38913
+  xy> 	 0x2608 	 KTa_ee                   	 eeprom 	 26622
+  xy> 	 0x2608 	 KV_ee                    	 eeprom 	 26622
+  xy> 	 0x2548 	 alpha_pixel_sensitivity  	 eeprom 	 47070
+
+  xy> 	 0x2489 	 Pix_os_SP0_ee            	 eeprom 	 10245
+  xy> 	 0x26c9 	 Pix_os_SP1_ee            	 eeprom 	 45060
+  xy> 	 0x2609 	 KTa_ee                   	 eeprom 	 65535
+  xy> 	 0x2609 	 KV_ee                    	 eeprom 	 65535
+  xy> 	 0x2549 	 alpha_pixel_sensitivity  	 eeprom 	 8112
+
+  xy> 	 0x248a 	 Pix_os_SP0_ee            	 eeprom 	 2059
+  xy> 	 0x26ca 	 Pix_os_SP1_ee            	 eeprom 	 2059
+  xy> 	 0x260a 	 KTa_ee                   	 eeprom 	 16318
+  xy> 	 0x260a 	 KV_ee                    	 eeprom 	 16318
+  xy> 	 0x254a 	 alpha_pixel_sensitivity  	 eeprom 	 10049
+
+  xy> 	 0x248b 	 Pix_os_SP0_ee            	 eeprom 	 57365
+  xy> 	 0x26cb 	 Pix_os_SP1_ee            	 eeprom 	 57365
+  xy> 	 0x260b 	 KTa_ee                   	 eeprom 	 14398
+  xy> 	 0x260b 	 KV_ee                    	 eeprom 	 14398
+  xy> 	 0x254b 	 alpha_pixel_sensitivity  	 eeprom 	 36559
+
+  xy> 	 0x248c 	 Pix_os_SP0_ee            	 eeprom 	 4109
+  xy> 	 0x26cc 	 Pix_os_SP1_ee            	 eeprom 	 34828
+  xy> 	 0x260c 	 KTa_ee                   	 eeprom 	 4029
+  xy> 	 0x260c 	 KV_ee                    	 eeprom 	 4029
+  xy> 	 0x254c 	 alpha_pixel_sensitivity  	 eeprom 	 44600
+
+  xy> 	 0x248d 	 Pix_os_SP0_ee            	 eeprom 	 63507
+  xy> 	 0x26cd 	 Pix_os_SP1_ee            	 eeprom 	 24594
+  xy> 	 0x260d 	 KTa_ee                   	 eeprom 	 12255
+  xy> 	 0x260d 	 KV_ee                    	 eeprom 	 12255
+  xy> 	 0x254d 	 alpha_pixel_sensitivity  	 eeprom 	 25997
+
+  xy> 	 0x248e 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26ce 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x260e 	 KTa_ee                   	 eeprom 	 34686
+  xy> 	 0x260e 	 KV_ee                    	 eeprom 	 34686
+  xy> 	 0x254e 	 alpha_pixel_sensitivity  	 eeprom 	 13535
+
+  xy> 	 0x248f 	 Pix_os_SP0_ee            	 eeprom 	 61464
+  xy> 	 0x26cf 	 Pix_os_SP1_ee            	 eeprom 	 61464
+  xy> 	 0x260f 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x260f 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x254f 	 alpha_pixel_sensitivity  	 eeprom 	 52277
+
+  xy> 	 0x2490 	 Pix_os_SP0_ee            	 eeprom 	 53270
+  xy> 	 0x26d0 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x2610 	 KTa_ee                   	 eeprom 	 55367
+  xy> 	 0x2610 	 KV_ee                    	 eeprom 	 55367
+  xy> 	 0x2550 	 alpha_pixel_sensitivity  	 eeprom 	 7289
+
+  xy> 	 0x2491 	 Pix_os_SP0_ee            	 eeprom 	 40969
+  xy> 	 0x26d1 	 Pix_os_SP1_ee            	 eeprom 	 14344
+  xy> 	 0x2611 	 KTa_ee                   	 eeprom 	 10245
+  xy> 	 0x2611 	 KV_ee                    	 eeprom 	 10245
+  xy> 	 0x2551 	 alpha_pixel_sensitivity  	 eeprom 	 21805
+
+  xy> 	 0x2492 	 Pix_os_SP0_ee            	 eeprom 	 24594
+  xy> 	 0x26d2 	 Pix_os_SP1_ee            	 eeprom 	 24594
+  xy> 	 0x2612 	 KTa_ee                   	 eeprom 	 45060
+  xy> 	 0x2612 	 KV_ee                    	 eeprom 	 45060
+  xy> 	 0x2552 	 alpha_pixel_sensitivity  	 eeprom 	 15821
+
+  xy> 	 0x2493 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x26d3 	 Pix_os_SP1_ee            	 eeprom 	 36874
+  xy> 	 0x2613 	 KTa_ee                   	 eeprom 	 38913
+  xy> 	 0x2613 	 KV_ee                    	 eeprom 	 38913
+  xy> 	 0x2553 	 alpha_pixel_sensitivity  	 eeprom 	 54902
+
+  xy> 	 0x2494 	 Pix_os_SP0_ee            	 eeprom 	 47119
+  xy> 	 0x26d4 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x2614 	 KTa_ee                   	 eeprom 	 61506
+  xy> 	 0x2614 	 KV_ee                    	 eeprom 	 61506
+  xy> 	 0x2554 	 alpha_pixel_sensitivity  	 eeprom 	 7973
+
+  xy> 	 0x2495 	 Pix_os_SP0_ee            	 eeprom 	 20497
+  xy> 	 0x26d5 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x2615 	 KTa_ee                   	 eeprom 	 51042
+  xy> 	 0x2615 	 KV_ee                    	 eeprom 	 51042
+  xy> 	 0x2555 	 alpha_pixel_sensitivity  	 eeprom 	 16264
+
+  xy> 	 0x2496 	 Pix_os_SP0_ee            	 eeprom 	 18455
+  xy> 	 0x26d6 	 Pix_os_SP1_ee            	 eeprom 	 53270
+  xy> 	 0x2616 	 KTa_ee                   	 eeprom 	 6113
+  xy> 	 0x2616 	 KV_ee                    	 eeprom 	 6113
+  xy> 	 0x2556 	 alpha_pixel_sensitivity  	 eeprom 	 14297
+
+  xy> 	 0x2497 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26d7 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x2617 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x2617 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x2557 	 alpha_pixel_sensitivity  	 eeprom 	 65535
+
+  xy> 	 0x2498 	 Pix_os_SP0_ee            	 eeprom 	 53270
+  xy> 	 0x26d8 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x2618 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x2618 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x2558 	 alpha_pixel_sensitivity  	 eeprom 	 51191
+
+  xy> 	 0x2499 	 Pix_os_SP0_ee            	 eeprom 	 57365
+  xy> 	 0x26d9 	 Pix_os_SP1_ee            	 eeprom 	 30740
+  xy> 	 0x2619 	 KTa_ee                   	 eeprom 	 63329
+  xy> 	 0x2619 	 KV_ee                    	 eeprom 	 63329
+  xy> 	 0x2559 	 alpha_pixel_sensitivity  	 eeprom 	 12265
+
+  xy> 	 0x249a 	 Pix_os_SP0_ee            	 eeprom 	 30754
+  xy> 	 0x26da 	 Pix_os_SP1_ee            	 eeprom 	 57379
+  xy> 	 0x261a 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x261a 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x255a 	 alpha_pixel_sensitivity  	 eeprom 	 28512
+
+  xy> 	 0x249b 	 Pix_os_SP0_ee            	 eeprom 	 26649
+  xy> 	 0x26db 	 Pix_os_SP1_ee            	 eeprom 	 22554
+  xy> 	 0x261b 	 KTa_ee                   	 eeprom 	 26622
+  xy> 	 0x261b 	 KV_ee                    	 eeprom 	 26622
+  xy> 	 0x255b 	 alpha_pixel_sensitivity  	 eeprom 	 50926
+
+  xy> 	 0x249c 	 Pix_os_SP0_ee            	 eeprom 	 53280
+  xy> 	 0x26dc 	 Pix_os_SP1_ee            	 eeprom 	 18465
+  xy> 	 0x261c 	 KTa_ee                   	 eeprom 	 65535
+  xy> 	 0x261c 	 KV_ee                    	 eeprom 	 65535
+  xy> 	 0x255c 	 alpha_pixel_sensitivity  	 eeprom 	 15976
+
+  xy> 	 0x249d 	 Pix_os_SP0_ee            	 eeprom 	 63525
+  xy> 	 0x26dd 	 Pix_os_SP1_ee            	 eeprom 	 24612
+  xy> 	 0x261d 	 KTa_ee                   	 eeprom 	 28512
+  xy> 	 0x261d 	 KV_ee                    	 eeprom 	 28512
+  xy> 	 0x255d 	 alpha_pixel_sensitivity  	 eeprom 	 17845
+
+  xy> 	 0x249e 	 Pix_os_SP0_ee            	 eeprom 	 20519
+  xy> 	 0x26de 	 Pix_os_SP1_ee            	 eeprom 	 59432
+  xy> 	 0x261e 	 KTa_ee                   	 eeprom 	 40833
+  xy> 	 0x261e 	 KV_ee                    	 eeprom 	 40833
+  xy> 	 0x255e 	 alpha_pixel_sensitivity  	 eeprom 	 13577
+
+  xy> 	 0x249f 	 Pix_os_SP0_ee            	 eeprom 	 51238
+  xy> 	 0x26df 	 Pix_os_SP1_ee            	 eeprom 	 20519
+  xy> 	 0x261f 	 KTa_ee                   	 eeprom 	 24512
+  xy> 	 0x261f 	 KV_ee                    	 eeprom 	 24512
+  xy> 	 0x255f 	 alpha_pixel_sensitivity  	 eeprom 	 1097
+
+  xy> 	 0x24a0 	 Pix_os_SP0_ee            	 eeprom 	 6113
+  xy> 	 0x26e0 	 Pix_os_SP1_ee            	 eeprom 	 6113
+  xy> 	 0x2620 	 KTa_ee                   	 eeprom 	 35011
+  xy> 	 0x2620 	 KV_ee                    	 eeprom 	 35011
+  xy> 	 0x2560 	 alpha_pixel_sensitivity  	 eeprom 	 25709
+
+  xy> 	 0x24a1 	 Pix_os_SP0_ee            	 eeprom 	 4071
+  xy> 	 0x26e1 	 Pix_os_SP1_ee            	 eeprom 	 38886
+  xy> 	 0x2621 	 KTa_ee                   	 eeprom 	 47203
+  xy> 	 0x2621 	 KV_ee                    	 eeprom 	 47203
+  xy> 	 0x2561 	 alpha_pixel_sensitivity  	 eeprom 	 29987
+
+  xy> 	 0x24a2 	 Pix_os_SP0_ee            	 eeprom 	 45038
+  xy> 	 0x26e2 	 Pix_os_SP1_ee            	 eeprom 	 40941
+  xy> 	 0x2622 	 KTa_ee                   	 eeprom 	 43169
+  xy> 	 0x2622 	 KV_ee                    	 eeprom 	 43169
+  xy> 	 0x2562 	 alpha_pixel_sensitivity  	 eeprom 	 32189
+
+  xy> 	 0x24a3 	 Pix_os_SP0_ee            	 eeprom 	 65535
+  xy> 	 0x26e3 	 Pix_os_SP1_ee            	 eeprom 	 65535
+  xy> 	 0x2623 	 KTa_ee                   	 eeprom 	 61665
+  xy> 	 0x2623 	 KV_ee                    	 eeprom 	 61665
+  xy> 	 0x2563 	 alpha_pixel_sensitivity  	 eeprom 	 9816
+
+  xy> 	 0x24a4 	 Pix_os_SP0_ee            	 eeprom 	 51191
+  xy> 	 0x26e4 	 Pix_os_SP1_ee            	 eeprom 	 51191
+  xy> 	 0x2624 	 KTa_ee                   	 eeprom 	 43169
+  xy> 	 0x2624 	 KV_ee                    	 eeprom 	 43169
+  xy> 	 0x2564 	 alpha_pixel_sensitivity  	 eeprom 	 26375
+
+  xy> 	 0x24a5 	 Pix_os_SP0_ee            	 eeprom 	 18416
+  xy> 	 0x26e5 	 Pix_os_SP1_ee            	 eeprom 	 14319
+  xy> 	 0x2625 	 KTa_ee                   	 eeprom 	 34912
+  xy> 	 0x2625 	 KV_ee                    	 eeprom 	 34912
+  xy> 	 0x2565 	 alpha_pixel_sensitivity  	 eeprom 	 44930
+
+  xy> 	 0x24a6 	 Pix_os_SP0_ee            	 eeprom 	 59385
+  xy> 	 0x26e6 	 Pix_os_SP1_ee            	 eeprom 	 32760
+  xy> 	 0x2626 	 KTa_ee                   	 eeprom 	 51423
+  xy> 	 0x2626 	 KV_ee                    	 eeprom 	 51423
+  xy> 	 0x2566 	 alpha_pixel_sensitivity  	 eeprom 	 18374
+
+  xy> 	 0x24a7 	 Pix_os_SP0_ee            	 eeprom 	 20475
+  xy> 	 0x26e7 	 Pix_os_SP1_ee            	 eeprom 	 20475
+  xy> 	 0x2627 	 KTa_ee                   	 eeprom 	 2206
+  xy> 	 0x2627 	 KV_ee                    	 eeprom 	 2206
+  xy> 	 0x2567 	 alpha_pixel_sensitivity  	 eeprom 	 65535
+
+  xy> 	 0x24a8 	 Pix_os_SP0_ee            	 eeprom 	 28661
+  xy> 	 0x26e8 	 Pix_os_SP1_ee            	 eeprom 	 24566
+  xy> 	 0x2628 	 KTa_ee                   	 eeprom 	 2206
+  xy> 	 0x2628 	 KV_ee                    	 eeprom 	 2206
+  xy> 	 0x2568 	 alpha_pixel_sensitivity  	 eeprom 	 53244
+
+  xy> 	 0x24a9 	 Pix_os_SP0_ee            	 eeprom 	 59385
+  xy> 	 0x26e9 	 Pix_os_SP1_ee            	 eeprom 	 32760
+  xy> 	 0x2629 	 KTa_ee                   	 eeprom 	 26622
+  xy> 	 0x2629 	 KV_ee                    	 eeprom 	 26622
+  xy> 	 0x2569 	 alpha_pixel_sensitivity  	 eeprom 	 61380
+
+  xy> 	 0x24aa 	 Pix_os_SP0_ee            	 eeprom 	 36874
+  xy> 	 0x26ea 	 Pix_os_SP1_ee            	 eeprom 	 40969
+  xy> 	 0x262a 	 KTa_ee                   	 eeprom 	 2109
+  xy> 	 0x262a 	 KV_ee                    	 eeprom 	 2109
+  xy> 	 0x256a 	 alpha_pixel_sensitivity  	 eeprom 	 55093
+
+  xy> 	 0x24ab 	 Pix_os_SP0_ee            	 eeprom 	 20497
+  xy> 	 0x26eb 	 Pix_os_SP1_ee            	 eeprom 	 20497
+  xy> 	 0x262b 	 KTa_ee                   	 eeprom 	 55486
+  xy> 	 0x262b 	 KV_ee                    	 eeprom 	 55486
+  xy> 	 0x256b 	 alpha_pixel_sensitivity  	 eeprom 	 63195
+
+  xy> 	 0x24ac 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x26ec 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x262c 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x262c 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x256c 	 alpha_pixel_sensitivity  	 eeprom 	 9816
+
+  xy> 	 0x24ad 	 Pix_os_SP0_ee            	 eeprom 	 4109
+  xy> 	 0x26ed 	 Pix_os_SP1_ee            	 eeprom 	 2059
+  xy> 	 0x262d 	 KTa_ee                   	 eeprom 	 26622
+  xy> 	 0x262d 	 KV_ee                    	 eeprom 	 26622
+  xy> 	 0x256d 	 alpha_pixel_sensitivity  	 eeprom 	 40360
+
+  xy> 	 0x24ae 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x26ee 	 Pix_os_SP1_ee            	 eeprom 	 47119
+  xy> 	 0x262e 	 KTa_ee                   	 eeprom 	 34781
+  xy> 	 0x262e 	 KV_ee                    	 eeprom 	 34781
+  xy> 	 0x256e 	 alpha_pixel_sensitivity  	 eeprom 	 60660
+
+  xy> 	 0x24af 	 Pix_os_SP0_ee            	 eeprom 	 28703
+  xy> 	 0x26ef 	 Pix_os_SP1_ee            	 eeprom 	 28703
+  xy> 	 0x262f 	 KTa_ee                   	 eeprom 	 0
+  xy> 	 0x262f 	 KV_ee                    	 eeprom 	 0
+  xy> 	 0x256f 	 alpha_pixel_sensitivity  	 eeprom 	 40008
+
+  xy> 	 0x24b0 	 Pix_os_SP0_ee            	 eeprom 	 32760
+  xy> 	 0x26f0 	 Pix_os_SP1_ee            	 eeprom 	 59385
+  xy> 	 0x2630 	 KTa_ee                   	 eeprom 	 20744
+  xy> 	 0x2630 	 KV_ee                    	 eeprom 	 20744
+  xy> 	 0x2570 	 alpha_pixel_sensitivity  	 eeprom 	 50276
+
+  xy> 	 0x24b1 	 Pix_os_SP0_ee            	 eeprom 	 57329
+  xy> 	 0x26f1 	 Pix_os_SP1_ee            	 eeprom 	 18416
+  xy> 	 0x2631 	 KTa_ee                   	 eeprom 	 63622
+  xy> 	 0x2631 	 KV_ee                    	 eeprom 	 63622
+  xy> 	 0x2571 	 alpha_pixel_sensitivity  	 eeprom 	 1290
+
+  xy> 	 0x24b2 	 Pix_os_SP0_ee            	 eeprom 	 0
+  xy> 	 0x26f2 	 Pix_os_SP1_ee            	 eeprom 	 65535
+  xy> 	 0x2632 	 KTa_ee                   	 eeprom 	 2244
+  xy> 	 0x2632 	 KV_ee                    	 eeprom 	 2244
+  xy> 	 0x2572 	 alpha_pixel_sensitivity  	 eeprom 	 34200
+
+  xy> 	 0x24b3 	 Pix_os_SP0_ee            	 eeprom 	 22525
+  xy> 	 0x26f3 	 Pix_os_SP1_ee            	 eeprom 	 22525
+  xy> 	 0x2633 	 KTa_ee                   	 eeprom 	 49410
+  xy> 	 0x2633 	 KV_ee                    	 eeprom 	 49410
+  xy> 	 0x2573 	 alpha_pixel_sensitivity  	 eeprom 	 26152
+
+  xy> 	 0x24b4 	 Pix_os_SP0_ee            	 eeprom 	 26622
+  xy> 	 0x26f4 	 Pix_os_SP1_ee            	 eeprom 	 65535
+  xy> 	 0x2634 	 KTa_ee                   	 eeprom 	 49378
+  xy> 	 0x2634 	 KV_ee                    	 eeprom 	 49378
+  xy> 	 0x2574 	 alpha_pixel_sensitivity  	 eeprom 	 65232
+
+  xy> 	 0x24b5 	 Pix_os_SP0_ee            	 eeprom 	 65535
+  xy> 	 0x26f5 	 Pix_os_SP1_ee            	 eeprom 	 26622
+  xy> 	 0x2635 	 KTa_ee                   	 eeprom 	 61506
+  xy> 	 0x2635 	 KV_ee                    	 eeprom 	 61506
+  xy> 	 0x2575 	 alpha_pixel_sensitivity  	 eeprom 	 28502
+
+  xy> 	 0x24b6 	 Pix_os_SP0_ee            	 eeprom 	 32775
+  xy> 	 0x26f6 	 Pix_os_SP1_ee            	 eeprom 	 32775
+  xy> 	 0x2636 	 KTa_ee                   	 eeprom 	 4193
+  xy> 	 0x2636 	 KV_ee                    	 eeprom 	 4193
+  xy> 	 0x2576 	 alpha_pixel_sensitivity  	 eeprom 	 65427
+
+  xy> 	 0x24b7 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x26f7 	 Pix_os_SP1_ee            	 eeprom 	 6150
+  xy> 	 0x2637 	 KTa_ee                   	 eeprom 	 37023
+  xy> 	 0x2637 	 KV_ee                    	 eeprom 	 37023
+  xy> 	 0x2577 	 alpha_pixel_sensitivity  	 eeprom 	 51099
+
+  xy> 	 0x24b8 	 Pix_os_SP0_ee            	 eeprom 	 40969
+  xy> 	 0x26f8 	 Pix_os_SP1_ee            	 eeprom 	 36874
+  xy> 	 0x2638 	 KTa_ee                   	 eeprom 	 57472
+  xy> 	 0x2638 	 KV_ee                    	 eeprom 	 57472
+  xy> 	 0x2578 	 alpha_pixel_sensitivity  	 eeprom 	 10168
+
+  xy> 	 0x24b9 	 Pix_os_SP0_ee            	 eeprom 	 20497
+  xy> 	 0x26f9 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x2639 	 KTa_ee                   	 eeprom 	 57472
+  xy> 	 0x2639 	 KV_ee                    	 eeprom 	 57472
+  xy> 	 0x2579 	 alpha_pixel_sensitivity  	 eeprom 	 10126
+
+  xy> 	 0x24ba 	 Pix_os_SP0_ee            	 eeprom 	 53280
+  xy> 	 0x26fa 	 Pix_os_SP1_ee            	 eeprom 	 53280
+  xy> 	 0x263a 	 KTa_ee                   	 eeprom 	 12448
+  xy> 	 0x263a 	 KV_ee                    	 eeprom 	 12448
+  xy> 	 0x257a 	 alpha_pixel_sensitivity  	 eeprom 	 55043
+
+  xy> 	 0x24bb 	 Pix_os_SP0_ee            	 eeprom 	 53270
+  xy> 	 0x26fb 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x263b 	 KTa_ee                   	 eeprom 	 14398
+  xy> 	 0x263b 	 KV_ee                    	 eeprom 	 14398
+  xy> 	 0x257b 	 alpha_pixel_sensitivity  	 eeprom 	 42662
+
+  xy> 	 0x24bc 	 Pix_os_SP0_ee            	 eeprom 	 18455
+  xy> 	 0x26fc 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x263c 	 KTa_ee                   	 eeprom 	 28703
+  xy> 	 0x263c 	 KV_ee                    	 eeprom 	 28703
+  xy> 	 0x257c 	 alpha_pixel_sensitivity  	 eeprom 	 11839
+
+  xy> 	 0x24bd 	 Pix_os_SP0_ee            	 eeprom 	 30754
+  xy> 	 0x26fd 	 Pix_os_SP1_ee            	 eeprom 	 18465
+  xy> 	 0x263d 	 KTa_ee                   	 eeprom 	 36832
+  xy> 	 0x263d 	 KV_ee                    	 eeprom 	 36832
+  xy> 	 0x257d 	 alpha_pixel_sensitivity  	 eeprom 	 64908
+
+  xy> 	 0x24be 	 Pix_os_SP0_ee            	 eeprom 	 26671
+  xy> 	 0x26fe 	 Pix_os_SP1_ee            	 eeprom 	 61486
+  xy> 	 0x263e 	 KTa_ee                   	 eeprom 	 36832
+  xy> 	 0x263e 	 KV_ee                    	 eeprom 	 36832
+  xy> 	 0x257e 	 alpha_pixel_sensitivity  	 eeprom 	 60610
+
+  xy> 	 0x24bf 	 Pix_os_SP0_ee            	 eeprom 	 55339
+  xy> 	 0x26ff 	 Pix_os_SP1_ee            	 eeprom 	 55339
+  xy> 	 0x263f 	 KTa_ee                   	 eeprom 	 48960
+  xy> 	 0x263f 	 KV_ee                    	 eeprom 	 48960
+  xy> 	 0x257f 	 alpha_pixel_sensitivity  	 eeprom 	 11296
+
+  xy> 	 0x24c0 	 Pix_os_SP0_ee            	 eeprom 	 28611
+  xy> 	 0x2700 	 Pix_os_SP1_ee            	 eeprom 	 28611
+  xy> 	 0x2640 	 KTa_ee                   	 eeprom 	 55556
+  xy> 	 0x2640 	 KV_ee                    	 eeprom 	 55556
+  xy> 	 0x2580 	 alpha_pixel_sensitivity  	 eeprom 	 11386
+
+  xy> 	 0x24c1 	 Pix_os_SP0_ee            	 eeprom 	 20429
+  xy> 	 0x2701 	 Pix_os_SP1_ee            	 eeprom 	 20429
+  xy> 	 0x2641 	 KTa_ee                   	 eeprom 	 55524
+  xy> 	 0x2641 	 KV_ee                    	 eeprom 	 55524
+  xy> 	 0x2581 	 alpha_pixel_sensitivity  	 eeprom 	 32040
+
+  xy> 	 0x24c2 	 Pix_os_SP0_ee            	 eeprom 	 49109
+  xy> 	 0x2702 	 Pix_os_SP1_ee            	 eeprom 	 10196
+  xy> 	 0x2642 	 KTa_ee                   	 eeprom 	 49410
+  xy> 	 0x2642 	 KV_ee                    	 eeprom 	 49410
+  xy> 	 0x2582 	 alpha_pixel_sensitivity  	 eeprom 	 44487
+
+  xy> 	 0x24c3 	 Pix_os_SP0_ee            	 eeprom 	 36832
+  xy> 	 0x2703 	 Pix_os_SP1_ee            	 eeprom 	 6113
+  xy> 	 0x2643 	 KTa_ee                   	 eeprom 	 61697
+  xy> 	 0x2643 	 KV_ee                    	 eeprom 	 61697
+  xy> 	 0x2583 	 alpha_pixel_sensitivity  	 eeprom 	 48751
+
+  xy> 	 0x24c4 	 Pix_os_SP0_ee            	 eeprom 	 14297
+  xy> 	 0x2704 	 Pix_os_SP1_ee            	 eeprom 	 2010
+  xy> 	 0x2644 	 KTa_ee                   	 eeprom 	 61697
+  xy> 	 0x2644 	 KV_ee                    	 eeprom 	 61697
+  xy> 	 0x2584 	 alpha_pixel_sensitivity  	 eeprom 	 40738
+
+  xy> 	 0x24c5 	 Pix_os_SP0_ee            	 eeprom 	 49109
+  xy> 	 0x2705 	 Pix_os_SP1_ee            	 eeprom 	 42963
+  xy> 	 0x2645 	 KTa_ee                   	 eeprom 	 6399
+  xy> 	 0x2645 	 KV_ee                    	 eeprom 	 6399
+  xy> 	 0x2585 	 alpha_pixel_sensitivity  	 eeprom 	 63406
+
+  xy> 	 0x24c6 	 Pix_os_SP0_ee            	 eeprom 	 6113
+  xy> 	 0x2706 	 Pix_os_SP1_ee            	 eeprom 	 36832
+  xy> 	 0x2646 	 KTa_ee                   	 eeprom 	 20702
+  xy> 	 0x2646 	 KV_ee                    	 eeprom 	 20702
+  xy> 	 0x2586 	 alpha_pixel_sensitivity  	 eeprom 	 61380
+
+  xy> 	 0x24c7 	 Pix_os_SP0_ee            	 eeprom 	 8170
+  xy> 	 0x2707 	 Pix_os_SP1_ee            	 eeprom 	 34795
+  xy> 	 0x2647 	 KTa_ee                   	 eeprom 	 55486
+  xy> 	 0x2647 	 KV_ee                    	 eeprom 	 55486
+  xy> 	 0x2587 	 alpha_pixel_sensitivity  	 eeprom 	 26622
+
+  xy> 	 0x24c8 	 Pix_os_SP0_ee            	 eeprom 	 6113
+  xy> 	 0x2708 	 Pix_os_SP1_ee            	 eeprom 	 10210
+  xy> 	 0x2648 	 KTa_ee                   	 eeprom 	 20605
+  xy> 	 0x2648 	 KV_ee                    	 eeprom 	 20605
+  xy> 	 0x2588 	 alpha_pixel_sensitivity  	 eeprom 	 65535
+
+  xy> 	 0x24c9 	 Pix_os_SP0_ee            	 eeprom 	 28661
+  xy> 	 0x2709 	 Pix_os_SP1_ee            	 eeprom 	 30707
+  xy> 	 0x2649 	 KTa_ee                   	 eeprom 	 2206
+  xy> 	 0x2649 	 KV_ee                    	 eeprom 	 2206
+  xy> 	 0x2589 	 alpha_pixel_sensitivity  	 eeprom 	 53158
+
+  xy> 	 0x24ca 	 Pix_os_SP0_ee            	 eeprom 	 51191
+  xy> 	 0x270a 	 Pix_os_SP1_ee            	 eeprom 	 24566
+  xy> 	 0x264a 	 KTa_ee                   	 eeprom 	 2109
+  xy> 	 0x264a 	 KV_ee                    	 eeprom 	 2109
+  xy> 	 0x258a 	 alpha_pixel_sensitivity  	 eeprom 	 55129
+
+  xy> 	 0x24cb 	 Pix_os_SP0_ee            	 eeprom 	 6150
+  xy> 	 0x270b 	 Pix_os_SP1_ee            	 eeprom 	 10245
+  xy> 	 0x264b 	 KTa_ee                   	 eeprom 	 20605
+  xy> 	 0x264b 	 KV_ee                    	 eeprom 	 20605
+  xy> 	 0x258b 	 alpha_pixel_sensitivity  	 eeprom 	 32481
+
+  xy> 	 0x24cc 	 Pix_os_SP0_ee            	 eeprom 	 0
+  xy> 	 0x270c 	 Pix_os_SP1_ee            	 eeprom 	 0
+  xy> 	 0x264c 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x264c 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x258c 	 alpha_pixel_sensitivity  	 eeprom 	 34385
+
+  xy> 	 0x24cd 	 Pix_os_SP0_ee            	 eeprom 	 45060
+  xy> 	 0x270d 	 Pix_os_SP1_ee            	 eeprom 	 12291
+  xy> 	 0x264d 	 KTa_ee                   	 eeprom 	 61342
+  xy> 	 0x264d 	 KV_ee                    	 eeprom 	 61342
+  xy> 	 0x258d 	 alpha_pixel_sensitivity  	 eeprom 	 56756
+
+  xy> 	 0x24ce 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x270e 	 Pix_os_SP1_ee            	 eeprom 	 8206
+  xy> 	 0x264e 	 KTa_ee                   	 eeprom 	 34781
+  xy> 	 0x264e 	 KV_ee                    	 eeprom 	 34781
+  xy> 	 0x258e 	 alpha_pixel_sensitivity  	 eeprom 	 23792
+
+  xy> 	 0x24cf 	 Pix_os_SP0_ee            	 eeprom 	 18465
+  xy> 	 0x270f 	 Pix_os_SP1_ee            	 eeprom 	 18465
+  xy> 	 0x264f 	 KTa_ee                   	 eeprom 	 65535
+  xy> 	 0x264f 	 KV_ee                    	 eeprom 	 65535
+  xy> 	 0x258f 	 alpha_pixel_sensitivity  	 eeprom 	 46157
+
+  xy> 	 0x24d0 	 Pix_os_SP0_ee            	 eeprom 	 14297
+  xy> 	 0x2710 	 Pix_os_SP1_ee            	 eeprom 	 2010
+  xy> 	 0x2650 	 KTa_ee                   	 eeprom 	 55755
+  xy> 	 0x2650 	 KV_ee                    	 eeprom 	 55755
+  xy> 	 0x2590 	 alpha_pixel_sensitivity  	 eeprom 	 50238
+
+  xy> 	 0x24d1 	 Pix_os_SP0_ee            	 eeprom 	 10196
+  xy> 	 0x2711 	 Pix_os_SP1_ee            	 eeprom 	 42963
+  xy> 	 0x2651 	 KTa_ee                   	 eeprom 	 45383
+  xy> 	 0x2651 	 KV_ee                    	 eeprom 	 45383
+  xy> 	 0x2591 	 alpha_pixel_sensitivity  	 eeprom 	 1244
+
+  xy> 	 0x24d2 	 Pix_os_SP0_ee            	 eeprom 	 8156
+  xy> 	 0x2712 	 Pix_os_SP1_ee            	 eeprom 	 8156
+  xy> 	 0x2652 	 KTa_ee                   	 eeprom 	 2340
+  xy> 	 0x2652 	 KV_ee                    	 eeprom 	 2340
+  xy> 	 0x2592 	 alpha_pixel_sensitivity  	 eeprom 	 48489
+
+  xy> 	 0x24d3 	 Pix_os_SP0_ee            	 eeprom 	 40923
+  xy> 	 0x2713 	 Pix_os_SP1_ee            	 eeprom 	 40923
+  xy> 	 0x2653 	 KTa_ee                   	 eeprom 	 4386
+  xy> 	 0x2653 	 KV_ee                    	 eeprom 	 4386
+  xy> 	 0x2593 	 alpha_pixel_sensitivity  	 eeprom 	 11766
+
+  xy> 	 0x24d4 	 Pix_os_SP0_ee            	 eeprom 	 47070
+  xy> 	 0x2714 	 Pix_os_SP1_ee            	 eeprom 	 47070
+  xy> 	 0x2654 	 KTa_ee                   	 eeprom 	 61697
+  xy> 	 0x2654 	 KV_ee                    	 eeprom 	 61697
+  xy> 	 0x2594 	 alpha_pixel_sensitivity  	 eeprom 	 30342
+
+  xy> 	 0x24d5 	 Pix_os_SP0_ee            	 eeprom 	 49123
+  xy> 	 0x2715 	 Pix_os_SP1_ee            	 eeprom 	 6113
+  xy> 	 0x2655 	 KTa_ee                   	 eeprom 	 43169
+  xy> 	 0x2655 	 KV_ee                    	 eeprom 	 43169
+  xy> 	 0x2595 	 alpha_pixel_sensitivity  	 eeprom 	 28428
+
+  xy> 	 0x24d6 	 Pix_os_SP0_ee            	 eeprom 	 45038
+  xy> 	 0x2716 	 Pix_os_SP1_ee            	 eeprom 	 40941
+  xy> 	 0x2656 	 KTa_ee                   	 eeprom 	 26848
+  xy> 	 0x2656 	 KV_ee                    	 eeprom 	 26848
+  xy> 	 0x2596 	 alpha_pixel_sensitivity  	 eeprom 	 10049
+
+  xy> 	 0x24d7 	 Pix_os_SP0_ee            	 eeprom 	 47080
+  xy> 	 0x2717 	 Pix_os_SP1_ee            	 eeprom 	 47080
+  xy> 	 0x2657 	 KTa_ee                   	 eeprom 	 55486
+  xy> 	 0x2657 	 KV_ee                    	 eeprom 	 55486
+  xy> 	 0x2597 	 alpha_pixel_sensitivity  	 eeprom 	 59244
+
+  xy> 	 0x24d8 	 Pix_os_SP0_ee            	 eeprom 	 45038
+  xy> 	 0x2718 	 Pix_os_SP1_ee            	 eeprom 	 14319
+  xy> 	 0x2658 	 KTa_ee                   	 eeprom 	 24702
+  xy> 	 0x2658 	 KV_ee                    	 eeprom 	 24702
+  xy> 	 0x2598 	 alpha_pixel_sensitivity  	 eeprom 	 34686
+
+  xy> 	 0x24d9 	 Pix_os_SP0_ee            	 eeprom 	 53244
+  xy> 	 0x2719 	 Pix_os_SP1_ee            	 eeprom 	 20475
+  xy> 	 0x2659 	 KTa_ee                   	 eeprom 	 57472
+  xy> 	 0x2659 	 KV_ee                    	 eeprom 	 57472
+  xy> 	 0x2599 	 alpha_pixel_sensitivity  	 eeprom 	 36675
+
+  xy> 	 0x24da 	 Pix_os_SP0_ee            	 eeprom 	 40969
+  xy> 	 0x271a 	 Pix_os_SP1_ee            	 eeprom 	 40969
+  xy> 	 0x265a 	 KTa_ee                   	 eeprom 	 37023
+  xy> 	 0x265a 	 KV_ee                    	 eeprom 	 37023
+  xy> 	 0x259a 	 alpha_pixel_sensitivity  	 eeprom 	 63195
+
+  xy> 	 0x24db 	 Pix_os_SP0_ee            	 eeprom 	 32775
+  xy> 	 0x271b 	 Pix_os_SP1_ee            	 eeprom 	 32775
+  xy> 	 0x265b 	 KTa_ee                   	 eeprom 	 2109
+  xy> 	 0x265b 	 KV_ee                    	 eeprom 	 2109
+  xy> 	 0x259b 	 alpha_pixel_sensitivity  	 eeprom 	 1632
+
+  xy> 	 0x24dc 	 Pix_os_SP0_ee            	 eeprom 	 51216
+  xy> 	 0x271c 	 Pix_os_SP1_ee            	 eeprom 	 51216
+  xy> 	 0x265c 	 KTa_ee                   	 eeprom 	 12255
+  xy> 	 0x265c 	 KV_ee                    	 eeprom 	 12255
+  xy> 	 0x259c 	 alpha_pixel_sensitivity  	 eeprom 	 28138
+
+  xy> 	 0x24dd 	 Pix_os_SP0_ee            	 eeprom 	 61464
+  xy> 	 0x271d 	 Pix_os_SP1_ee            	 eeprom 	 53270
+  xy> 	 0x265d 	 KTa_ee                   	 eeprom 	 28512
+  xy> 	 0x265d 	 KV_ee                    	 eeprom 	 28512
+  xy> 	 0x259d 	 alpha_pixel_sensitivity  	 eeprom 	 44370
+
+  xy> 	 0x24de 	 Pix_os_SP0_ee            	 eeprom 	 16426
+  xy> 	 0x271e 	 Pix_os_SP1_ee            	 eeprom 	 28713
+  xy> 	 0x265e 	 KTa_ee                   	 eeprom 	 65535
+  xy> 	 0x265e 	 KV_ee                    	 eeprom 	 65535
+  xy> 	 0x259e 	 alpha_pixel_sensitivity  	 eeprom 	 3213
+
+  xy> 	 0x24df 	 Pix_os_SP0_ee            	 eeprom 	 51238
+  xy> 	 0x271f 	 Pix_os_SP1_ee            	 eeprom 	 51238
+  xy> 	 0x265f 	 KTa_ee                   	 eeprom 	 48960
+  xy> 	 0x265f 	 KV_ee                    	 eeprom 	 48960
+  xy> 	 0x259f 	 alpha_pixel_sensitivity  	 eeprom 	 64512
+
+  xy> 	 0x24e0 	 Pix_os_SP0_ee            	 eeprom 	 20375
+  xy> 	 0x2720 	 Pix_os_SP1_ee            	 eeprom 	 63384
+  xy> 	 0x2660 	 KTa_ee                   	 eeprom 	 63846
+  xy> 	 0x2660 	 KV_ee                    	 eeprom 	 63846
+  xy> 	 0x25a0 	 alpha_pixel_sensitivity  	 eeprom 	 56475
+
+  xy> 	 0x24e1 	 Pix_os_SP0_ee            	 eeprom 	 26532
+  xy> 	 0x2721 	 Pix_os_SP1_ee            	 eeprom 	 59299
+  xy> 	 0x2661 	 KTa_ee                   	 eeprom 	 14724
+  xy> 	 0x2661 	 KV_ee                    	 eeprom 	 14724
+  xy> 	 0x25a1 	 alpha_pixel_sensitivity  	 eeprom 	 56653
+
+  xy> 	 0x24e2 	 Pix_os_SP0_ee            	 eeprom 	 18346
+  xy> 	 0x2722 	 Pix_os_SP1_ee            	 eeprom 	 18346
+  xy> 	 0x2662 	 KTa_ee                   	 eeprom 	 8578
+  xy> 	 0x2662 	 KV_ee                    	 eeprom 	 8578
+  xy> 	 0x25a2 	 alpha_pixel_sensitivity  	 eeprom 	 19940
+
+  xy> 	 0x24e3 	 Pix_os_SP0_ee            	 eeprom 	 49081
+  xy> 	 0x2723 	 Pix_os_SP1_ee            	 eeprom 	 36794
+  xy> 	 0x2663 	 KTa_ee                   	 eeprom 	 49569
+  xy> 	 0x2663 	 KV_ee                    	 eeprom 	 49569
+  xy> 	 0x25a3 	 alpha_pixel_sensitivity  	 eeprom 	 56964
+
+  xy> 	 0x24e4 	 Pix_os_SP0_ee            	 eeprom 	 16318
+  xy> 	 0x2724 	 Pix_os_SP1_ee            	 eeprom 	 16318
+  xy> 	 0x2664 	 KTa_ee                   	 eeprom 	 22944
+  xy> 	 0x2664 	 KV_ee                    	 eeprom 	 22944
+  xy> 	 0x25a4 	 alpha_pixel_sensitivity  	 eeprom 	 18185
+
+  xy> 	 0x24e5 	 Pix_os_SP0_ee            	 eeprom 	 44980
+  xy> 	 0x2725 	 Pix_os_SP1_ee            	 eeprom 	 44980
+  xy> 	 0x2665 	 KTa_ee                   	 eeprom 	 6399
+  xy> 	 0x2665 	 KV_ee                    	 eeprom 	 6399
+  xy> 	 0x25a5 	 alpha_pixel_sensitivity  	 eeprom 	 55190
+
+  xy> 	 0x24e6 	 Pix_os_SP0_ee            	 eeprom 	 57287
+  xy> 	 0x2726 	 Pix_os_SP1_ee            	 eeprom 	 57287
+  xy> 	 0x2666 	 KTa_ee                   	 eeprom 	 59741
+  xy> 	 0x2666 	 KV_ee                    	 eeprom 	 59741
+  xy> 	 0x25a6 	 alpha_pixel_sensitivity  	 eeprom 	 47026
+
+  xy> 	 0x24e7 	 Pix_os_SP0_ee            	 eeprom 	 32718
+  xy> 	 0x2727 	 Pix_os_SP1_ee            	 eeprom 	 59343
+  xy> 	 0x2667 	 KTa_ee                   	 eeprom 	 24893
+  xy> 	 0x2667 	 KV_ee                    	 eeprom 	 24893
+  xy> 	 0x25a7 	 alpha_pixel_sensitivity  	 eeprom 	 24566
+
+  xy> 	 0x24e8 	 Pix_os_SP0_ee            	 eeprom 	 20429
+  xy> 	 0x2728 	 Pix_os_SP1_ee            	 eeprom 	 32718
+  xy> 	 0x2668 	 KTa_ee                   	 eeprom 	 63804
+  xy> 	 0x2668 	 KV_ee                    	 eeprom 	 63804
+  xy> 	 0x25a8 	 alpha_pixel_sensitivity  	 eeprom 	 65535
+
+  xy> 	 0x24e9 	 Pix_os_SP0_ee            	 eeprom 	 55244
+  xy> 	 0x2729 	 Pix_os_SP1_ee            	 eeprom 	 55244
+  xy> 	 0x2669 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x2669 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x25a9 	 alpha_pixel_sensitivity  	 eeprom 	 12265
+
+  xy> 	 0x24ea 	 Pix_os_SP0_ee            	 eeprom 	 36832
+  xy> 	 0x272a 	 Pix_os_SP1_ee            	 eeprom 	 6113
+  xy> 	 0x266a 	 KTa_ee                   	 eeprom 	 51324
+  xy> 	 0x266a 	 KV_ee                    	 eeprom 	 51324
+  xy> 	 0x25aa 	 alpha_pixel_sensitivity  	 eeprom 	 51042
+
+  xy> 	 0x24eb 	 Pix_os_SP0_ee            	 eeprom 	 12265
+  xy> 	 0x272b 	 Pix_os_SP1_ee            	 eeprom 	 34795
+  xy> 	 0x266b 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x266b 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x25ab 	 alpha_pixel_sensitivity  	 eeprom 	 24335
+
+  xy> 	 0x24ec 	 Pix_os_SP0_ee            	 eeprom 	 30707
+  xy> 	 0x272c 	 Pix_os_SP1_ee            	 eeprom 	 30707
+  xy> 	 0x266c 	 KTa_ee                   	 eeprom 	 36924
+  xy> 	 0x266c 	 KV_ee                    	 eeprom 	 36924
+  xy> 	 0x25ac 	 alpha_pixel_sensitivity  	 eeprom 	 15966
+
+  xy> 	 0x24ed 	 Pix_os_SP0_ee            	 eeprom 	 28661
+  xy> 	 0x272d 	 Pix_os_SP1_ee            	 eeprom 	 30707
+  xy> 	 0x266d 	 KTa_ee                   	 eeprom 	 18332
+  xy> 	 0x266d 	 KV_ee                    	 eeprom 	 18332
+  xy> 	 0x25ad 	 alpha_pixel_sensitivity  	 eeprom 	 13766
+
+  xy> 	 0x24ee 	 Pix_os_SP0_ee            	 eeprom 	 0
+  xy> 	 0x272e 	 Pix_os_SP1_ee            	 eeprom 	 0
+  xy> 	 0x266e 	 KTa_ee                   	 eeprom 	 12156
+  xy> 	 0x266e 	 KV_ee                    	 eeprom 	 12156
+  xy> 	 0x25ae 	 alpha_pixel_sensitivity  	 eeprom 	 15618
+
+  xy> 	 0x24ef 	 Pix_os_SP0_ee            	 eeprom 	 26649
+  xy> 	 0x272f 	 Pix_os_SP1_ee            	 eeprom 	 22554
+  xy> 	 0x266f 	 KTa_ee                   	 eeprom 	 42943
+  xy> 	 0x266f 	 KV_ee                    	 eeprom 	 42943
+  xy> 	 0x25af 	 alpha_pixel_sensitivity  	 eeprom 	 29754
+
+  xy> 	 0x24f0 	 Pix_os_SP0_ee            	 eeprom 	 16264
+  xy> 	 0x2730 	 Pix_os_SP1_ee            	 eeprom 	 16264
+  xy> 	 0x2670 	 KTa_ee                   	 eeprom 	 57866
+  xy> 	 0x2670 	 KV_ee                    	 eeprom 	 57866
+  xy> 	 0x25b0 	 alpha_pixel_sensitivity  	 eeprom 	 31793
+
+  xy> 	 0x24f1 	 Pix_os_SP0_ee            	 eeprom 	 46980
+  xy> 	 0x2731 	 Pix_os_SP1_ee            	 eeprom 	 14211
+  xy> 	 0x2671 	 KTa_ee                   	 eeprom 	 16806
+  xy> 	 0x2671 	 KV_ee                    	 eeprom 	 16806
+  xy> 	 0x25b1 	 alpha_pixel_sensitivity  	 eeprom 	 42211
+
+  xy> 	 0x24f2 	 Pix_os_SP0_ee            	 eeprom 	 28569
+  xy> 	 0x2732 	 Pix_os_SP1_ee            	 eeprom 	 28569
+  xy> 	 0x2672 	 KTa_ee                   	 eeprom 	 16899
+  xy> 	 0x2672 	 KV_ee                    	 eeprom 	 16899
+  xy> 	 0x25b2 	 alpha_pixel_sensitivity  	 eeprom 	 19783
+
+  xy> 	 0x24f3 	 Pix_os_SP0_ee            	 eeprom 	 36748
+  xy> 	 0x2733 	 Pix_os_SP1_ee            	 eeprom 	 36748
+  xy> 	 0x2673 	 KTa_ee                   	 eeprom 	 35200
+  xy> 	 0x2673 	 KV_ee                    	 eeprom 	 35200
+  xy> 	 0x25b3 	 alpha_pixel_sensitivity  	 eeprom 	 62955
+
+  xy> 	 0x24f4 	 Pix_os_SP0_ee            	 eeprom 	 32660
+  xy> 	 0x2734 	 Pix_os_SP1_ee            	 eeprom 	 32660
+  xy> 	 0x2674 	 KTa_ee                   	 eeprom 	 63903
+  xy> 	 0x2674 	 KV_ee                    	 eeprom 	 63903
+  xy> 	 0x25b4 	 alpha_pixel_sensitivity  	 eeprom 	 38506
+
+  xy> 	 0x24f5 	 Pix_os_SP0_ee            	 eeprom 	 30623
+  xy> 	 0x2735 	 Pix_os_SP1_ee            	 eeprom 	 57245
+  xy> 	 0x2675 	 KTa_ee                   	 eeprom 	 51519
+  xy> 	 0x2675 	 KV_ee                    	 eeprom 	 51519
+  xy> 	 0x25b5 	 alpha_pixel_sensitivity  	 eeprom 	 50904
+
+  xy> 	 0x24f6 	 Pix_os_SP0_ee            	 eeprom 	 47026
+  xy> 	 0x2736 	 Pix_os_SP1_ee            	 eeprom 	 47026
+  xy> 	 0x2676 	 KTa_ee                   	 eeprom 	 14717
+  xy> 	 0x2676 	 KV_ee                    	 eeprom 	 14717
+  xy> 	 0x25b6 	 alpha_pixel_sensitivity  	 eeprom 	 44791
+
+  xy> 	 0x24f7 	 Pix_os_SP0_ee            	 eeprom 	 65445
+  xy> 	 0x2737 	 Pix_os_SP1_ee            	 eeprom 	 53158
+  xy> 	 0x2677 	 KTa_ee                   	 eeprom 	 63804
+  xy> 	 0x2677 	 KV_ee                    	 eeprom 	 63804
+  xy> 	 0x25b7 	 alpha_pixel_sensitivity  	 eeprom 	 36675
+
+  xy> 	 0x24f8 	 Pix_os_SP0_ee            	 eeprom 	 6075
+  xy> 	 0x2738 	 Pix_os_SP1_ee            	 eeprom 	 38844
+  xy> 	 0x2678 	 KTa_ee                   	 eeprom 	 10492
+  xy> 	 0x2678 	 KV_ee                    	 eeprom 	 10492
+  xy> 	 0x25b8 	 alpha_pixel_sensitivity  	 eeprom 	 7973
+
+  xy> 	 0x24f9 	 Pix_os_SP0_ee            	 eeprom 	 4029
+  xy> 	 0x2739 	 Pix_os_SP1_ee            	 eeprom 	 38844
+  xy> 	 0x2679 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x2679 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x25b9 	 alpha_pixel_sensitivity  	 eeprom 	 26417
+
+  xy> 	 0x24fa 	 Pix_os_SP0_ee            	 eeprom 	 34781
+  xy> 	 0x273a 	 Pix_os_SP1_ee            	 eeprom 	 47070
+  xy> 	 0x267a 	 KTa_ee                   	 eeprom 	 32861
+  xy> 	 0x267a 	 KV_ee                    	 eeprom 	 32861
+  xy> 	 0x25ba 	 alpha_pixel_sensitivity  	 eeprom 	 40622
+
+  xy> 	 0x24fb 	 Pix_os_SP0_ee            	 eeprom 	 12255
+  xy> 	 0x273b 	 Pix_os_SP1_ee            	 eeprom 	 6113
+  xy> 	 0x267b 	 KTa_ee                   	 eeprom 	 22525
+  xy> 	 0x267b 	 KV_ee                    	 eeprom 	 22525
+  xy> 	 0x25bb 	 alpha_pixel_sensitivity  	 eeprom 	 46674
+
+  xy> 	 0x24fc 	 Pix_os_SP0_ee            	 eeprom 	 24566
+  xy> 	 0x273c 	 Pix_os_SP1_ee            	 eeprom 	 51191
+  xy> 	 0x267c 	 KTa_ee                   	 eeprom 	 26622
+  xy> 	 0x267c 	 KV_ee                    	 eeprom 	 26622
+  xy> 	 0x25bc 	 alpha_pixel_sensitivity  	 eeprom 	 9675
+
+  xy> 	 0x24fd 	 Pix_os_SP0_ee            	 eeprom 	 65535
+  xy> 	 0x273d 	 Pix_os_SP1_ee            	 eeprom 	 22525
+  xy> 	 0x267d 	 KTa_ee                   	 eeprom 	 53087
+  xy> 	 0x267d 	 KV_ee                    	 eeprom 	 53087
+  xy> 	 0x25bd 	 alpha_pixel_sensitivity  	 eeprom 	 52544
+
+  xy> 	 0x24fe 	 Pix_os_SP0_ee            	 eeprom 	 53270
+  xy> 	 0x273e 	 Pix_os_SP1_ee            	 eeprom 	 18455
+  xy> 	 0x267e 	 KTa_ee                   	 eeprom 	 38687
+  xy> 	 0x267e 	 KV_ee                    	 eeprom 	 38687
+  xy> 	 0x25be 	 alpha_pixel_sensitivity  	 eeprom 	 15479
+
+  xy> 	 0x24ff 	 Pix_os_SP0_ee            	 eeprom 	 24594
+  xy> 	 0x273f 	 Pix_os_SP1_ee            	 eeprom 	 30740
+  xy> 	 0x267f 	 KTa_ee                   	 eeprom 	 38687
+  xy> 	 0x267f 	 KV_ee                    	 eeprom 	 38687
+  xy> 	 0x25bf 	 alpha_pixel_sensitivity  	 eeprom 	 6912
