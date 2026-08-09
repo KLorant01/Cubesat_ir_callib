@@ -2,7 +2,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 import numpy as np
 from time import time
-from read_funcs import read_pix_eeprom, read_raw_block
+from read_funcs import read_raw_block
 import json
 
 # TODO hardcode data !!!
